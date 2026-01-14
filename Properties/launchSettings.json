@@ -1,0 +1,14 @@
+{
+    "profiles": {
+        "Run SOLIDWORKS 3DXP": {
+            "commandName": "Executable",
+            "executablePath": "C:\\Program Files\\Dassault Systemes\\SOLIDWORKS 3DEXPERIENCE R2026x\\win_b64\\code\\bin\\CATSTART.exe",
+            "commandLineArgs": "-run \"SWXDesktopLauncher.exe\" -object \"--AppName=\\\"SWXCSWK_AP\\\" -tenant=OI000458712  -monoapp -3DRegistryURL=https://eu1-makers-registry.3dexperience.3ds.com\" -nowindow"
+        },
+        "Run SOLIDWORKS WORK": {
+            "commandName": "Executable",
+            "executablePath": "C:\\Program Files\\SOLIDWORKS Corp\\SOLIDWORKS\\SLDWORKS.exe",
+            "commandLineArgs": ""
+        }
+    }
+}

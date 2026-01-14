@@ -1,0 +1,31 @@
+﻿<Project Sdk="Microsoft.NET.Sdk">
+	<PropertyGroup>
+		<TargetFramework>net48</TargetFramework>
+		<ImplicitUsings>enable</ImplicitUsings>
+		<Nullable>enable</Nullable>
+		<LangVersion>latest</LangVersion>
+	</PropertyGroup>
+	<ItemGroup>
+	  <PackageReference Include="CADBooster.SolidDna" Version="3.4.1" />
+	  <PackageReference Include="FolderBrowserEx" Version="1.0.1" />
+	  <PackageReference Include="MathNet.Numerics" Version="5.0.0" />
+	  <PackageReference Include="System.Memory" Version="4.6.3" />
+	</ItemGroup>
+	<ItemGroup>
+	  <Reference Include="SolidWorks.Interop.sldworks" EmbedInteropTypes="false" HintPath="References\SolidWorks.Interop.sldworks.dll" />
+	  <Reference Include="SolidWorks.Interop.sw3dprinter" EmbedInteropTypes="false" HintPath="References\SolidWorks.Interop.sw3dprinter.dll" />
+	  <Reference Include="SolidWorks.Interop.swcommands" EmbedInteropTypes="false" HintPath="References\SolidWorks.Interop.swcommands.dll" />
+	  <Reference Include="SolidWorks.Interop.swconst" EmbedInteropTypes="false" HintPath="References\SolidWorks.Interop.swconst.dll" />
+	  <Reference Include="SolidWorks.Interop.swdimxpert" EmbedInteropTypes="false" HintPath="References\SolidWorks.Interop.swdimxpert.dll" />
+	  <Reference Include="SolidWorks.Interop.swdocumentmgr" EmbedInteropTypes="false" HintPath="References\SolidWorks.Interop.swdocumentmgr.dll" />
+	  <Reference Include="SolidWorks.Interop.swmotionstudy" EmbedInteropTypes="false" HintPath="References\SolidWorks.Interop.swmotionstudy.dll" />
+	  <Reference Include="SolidWorks.Interop.swpublished" EmbedInteropTypes="false" HintPath="References\SolidWorks.Interop.swpublished.dll" />
+	  <Reference Include="SolidWorks.Interop.SWRoutingLib" EmbedInteropTypes="false" HintPath="References\SolidWorks.Interop.SWRoutingLib.dll" />
+	  <Reference Include="TypeNameParser" HintPath="References\TypeNameParser.dll" />
+	</ItemGroup>
+	<ItemGroup>
+	  <None Update="appsettings.json">
+	    <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+	  </None>
+	</ItemGroup>
+</Project>
